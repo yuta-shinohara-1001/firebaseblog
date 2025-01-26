@@ -11,7 +11,7 @@ function App() {
   const [isAuth, setIsAuth] = useState(localStorage.getItem("isAuth"));
   return (
 
-    
+
     <Router>
       <Navbar isAuth={isAuth} />
       <Routes>
@@ -31,3 +31,5 @@ function App() {
 }
 
 export default App;
+
+//aaa
